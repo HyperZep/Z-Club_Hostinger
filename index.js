@@ -12,7 +12,7 @@ app.use(morgan("dev"));
 // Middleware
 app.use(express.json());
 
-// Connect to MongoDB 
+// Connect to MongoDB  1
 mongoose
   .connect(process.env.DB, {
     useNewUrlParser: true,
